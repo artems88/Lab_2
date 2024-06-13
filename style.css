@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+#score, #task, #result {
+    margin-bottom: 30px;
+}
+
+#score {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+#task {
+    font-size: 24px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.options input[type="radio"] {
+    margin-right: 12px;
+	align-content: flex-end;
+    transform: scale(1.2);
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#result:empty {
+    display: none;
+}
